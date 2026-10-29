@@ -1,0 +1,4 @@
+[build]
+  base = "D1"
+  command = "npm ci --include=dev && npm run build"
+  publish = "dist"
